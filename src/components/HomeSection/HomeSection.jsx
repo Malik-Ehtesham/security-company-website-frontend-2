@@ -6,7 +6,7 @@ const HomeSection = () => {
     <div className="sm:flex sm:justify-center">
       <div className="sm:w-5/6">
         <div className="flex flex-col  my-24 lg:my-52 2xl:my-56 p-5 px-10 sm:px-0">
-          <p className="text-3xl min-[500px]:text-4xl xl:text-6xl  font-black text-white">
+          <p className="text-4xl min-[500px]:text-4xl xl:text-6xl  font-black text-white">
             Your Safety, Our Priority
           </p>
           <p className="text-3xl min-[500px]:text-4xl xl:text-6xl  font-black text-yellow-400">
