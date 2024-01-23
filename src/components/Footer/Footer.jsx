@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col  md:flex-row justify-between sm:w-96 mt-10">
             <Fade direction="up">
-              <div className="flex flex-col">
+              <div className="flex flex-col mb-6 md:mb-0">
                 <header className="text-xl  text-white font-bold  mb-4">
                   Links
                 </header>
