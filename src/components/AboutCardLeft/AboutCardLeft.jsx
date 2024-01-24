@@ -3,9 +3,9 @@ import { Fade } from "react-awesome-reveal";
 
 const AboutCardLeft = (props) => {
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center mt-20 mb-16">
       <div className="sm:w-5/6">
-        <div className=" grid grid-cols-1  lg:grid-cols-2   lg:my-24">
+        <div className=" grid grid-cols-1  lg:grid-cols-2   ">
           <div className="p-4 py-10 lg:py-0 2xl:py-10">
             <p className="text-3xl md:text-5xl  font-black my-5">
               {props.title}
