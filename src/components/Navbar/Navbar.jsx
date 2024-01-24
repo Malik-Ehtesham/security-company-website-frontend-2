@@ -22,7 +22,7 @@ const Navbar = () => {
   }, [scrolled]);
   return (
     <div
-      className={`flex justify-center fixed w-full  rounded-sm ${
+      className={`flex justify-center fixed w-full z-10  rounded-sm ${
         scrolled ? "bg-sky-500" : ""
       } `}
     >
