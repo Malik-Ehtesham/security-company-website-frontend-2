@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Service1 from "../../utils/images/servicecards/service-1.jpg";
 import Service2 from "../../utils/images/servicecards/service-2.jpg";
 import Service3 from "../../utils/images/servicecards/service-3.jpg";
@@ -5,7 +6,7 @@ import ServicesCard from "../ServicesCard/ServicesCard";
 
 const ServicesSection = () => {
   return (
-    <div className="flex justify-center my-10 p-2 sm:p-0">
+    <div className="flex justify-center mt-10  p-2 sm:p-0">
       <div className="sm:w-5/6">
         <div>
           <p className=" text-center text-3xl sm:text-5xl font-bold my-2">
@@ -25,9 +26,12 @@ const ServicesSection = () => {
           <ServicesCard title={"Guarding"} image={Service3} />
         </div>
         <div className="flex justify-center my-5">
-          <button className="btn text-white rounded-full  btn-lg btn-info ">
+          <Link
+            to="/services"
+            className="btn text-white rounded-full  btn-lg btn-info "
+          >
             See More
-          </button>
+          </Link>
         </div>
       </div>
     </div>

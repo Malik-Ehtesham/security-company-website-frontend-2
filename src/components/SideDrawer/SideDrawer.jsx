@@ -69,7 +69,7 @@ export default function SwipeableTemporaryDrawer() {
           </Link>
         </ListItem>
         <ListItem disablePadding onClick={toggleDrawer(anchor, false)}>
-          <Link to="/">
+          <Link to="/aboutus">
             <ListItemButton>
               <ListItemIcon>
                 <InfoIcon className="text-sky-500" />
@@ -82,7 +82,7 @@ export default function SwipeableTemporaryDrawer() {
         </ListItem>
 
         <ListItem disablePadding onClick={toggleDrawer(anchor, false)}>
-          <Link to="/">
+          <Link to="/services">
             <ListItemButton>
               <ListItemIcon>
                 <SecurityIcon className="text-sky-500" />
@@ -94,7 +94,7 @@ export default function SwipeableTemporaryDrawer() {
           </Link>
         </ListItem>
         <ListItem disablePadding onClick={toggleDrawer(anchor, false)}>
-          <Link to="/">
+          <Link to="/career">
             <ListItemButton>
               <ListItemIcon>
                 <WorkIcon className="text-sky-500" />
@@ -106,7 +106,7 @@ export default function SwipeableTemporaryDrawer() {
           </Link>
         </ListItem>
         <ListItem disablePadding onClick={toggleDrawer(anchor, false)}>
-          <Link to="/">
+          <Link to="/contactus">
             <ListItemButton>
               <ListItemIcon>
                 <CallIcon className="text-sky-500" />
@@ -128,10 +128,13 @@ export default function SwipeableTemporaryDrawer() {
           <React.Fragment key={anchor}>
             <div className=" flex w-screen justify-between">
               <div className="flex justify-center items-center">
-                <img src={Logo} className="w-20 mx-5 rounded-full m-5" />
+                <img
+                  src={Logo}
+                  className="w-20 mx-5 border-4 border-sky-500 rounded-full m-5"
+                />
               </div>
               <Button onClick={toggleDrawer(anchor, true)} className="">
-                <MenuIcon fontSize="large" className="text-white" />
+                <MenuIcon fontSize="large" className="text-sky-500" />
               </Button>
             </div>
             <SwipeableDrawer

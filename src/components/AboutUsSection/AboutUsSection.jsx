@@ -1,81 +1,25 @@
-import { Link } from "react-router-dom";
-import { Fade } from "react-awesome-reveal";
+import About1 from "../../utils/images/aboutcards/about-2.jpg";
 
-import SalesImage from "../../utils/Images/abt/abt-1.png";
-import VisionImage from "../../utils/Images/abt/abt-2.png";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
-
-import "./AboutUsSection.css";
+import AboutCardLeft from "../AboutCardLeft/AboutCardLeft";
+import AboutCardRight from "../AboutCardRight/AboutCardRight";
 const AboutUsSection = () => {
   return (
-    <div className="flex justify-center">
-      <div className="sm:w-5/6  ">
-        <div className=" grid grid-cols-1  lg:grid-cols-2 gap-4">
-          <Fade direction="left">
-            <div className="p-2 flex justify-center">
-              <img src={SalesImage} className="" />
-            </div>
-          </Fade>
-          <div className="p-4">
-            <p className="text-3xl md:text-5xl text-white font-black my-6">
-              Elevating <span className="gradient-text">Sales</span>{" "}
-            </p>
-            <p className="text-white text-lg">
-              At CallUp, we are more than just a Tech Company; we are Innovators
-              on a mission to redefine the way Businesses engage with their
-              Customers. Founded on the Principles of Efficiency,
-              Personalization, and Cutting-edge Technology, we believe in the
-              power of AI to transform Conversations and Elevate Sales
-              Strategies.
-            </p>
-            <div>
-              <p className="text-white font-medium text-xl  my-3">
-                <CheckCircleIcon className="text-yellow-400" /> Seamless
-                Integration
-              </p>
-              <p className="text-white font-medium text-xl  my-3">
-                <CheckCircleIcon className="text-yellow-400" /> Industry
-                Recognition
-              </p>
-              <p className="text-white font-medium text-xl  my-3">
-                <CheckCircleIcon className="text-yellow-400" /> Customer Support
-                Metrics
-              </p>
-            </div>
-            <Link
-              to="/pricing"
-              className="aai-gradient-outline-btn p-4 px-8 my-8"
-            >
-              Get Started
-            </Link>
-          </div>
-        </div>
-        <div className=" grid grid-cols-1  lg:grid-cols-2 gap-4 my-10 vision-bg">
-          <div className="p-4">
-            <p className="text-3xl md:text-5xl text-white font-black my-6">
-              Our <span className="gradient-text">Vision</span>{" "}
-            </p>
-            <p className="text-white text-lg">
-              Our vision is to Empower Businesses of all sizes to Unleash the
-              full Potential of their sales calls. We Envision a Future where
-              every Interaction is meaningful, every Lead is Qualified with
-              Precision, and every Conversation drives Success. CallUp is the
-              Embodiment of this Vision — a Catalyst for Positive Change in the
-              Sales Landscape.
-            </p>
-            <Link
-              to="/pricing"
-              className="aai-gradient-outline-btn p-4 px-8 my-10"
-            >
-              Get Started
-            </Link>
-          </div>{" "}
-          <Fade direction="left">
-            <div className="p-2 flex justify-center">
-              <img src={VisionImage} className="" />
-            </div>
-          </Fade>
-        </div>
+    <div className="flex justify-center ">
+      <div className=" lg:mt-14 ">
+        <AboutCardLeft
+          title={"Who Are We?"}
+          image={About1}
+          description={
+            "At BKF, we're more than just a security service – we're your dedicated partners in protection. With a commitment to excellence, our experienced professionals deliver innovative security solutions tailored to your unique needs. Trust us to redefine standards and provide comprehensive security across residential, corporate, and event environments. At BKF, your safety is our top priority"
+          }
+        />
+        <AboutCardRight
+          title={"Our Vision"}
+          image={About1}
+          description={
+            "At BKF, our vision is to redefine security, envisioning a future where safety is a fundamental right. We aspire to be leaders in innovative and personalized security solutions, leveraging technology and unwavering commitment to protect what matters most to our clients. At BKF, we foresee a world where security seamlessly intertwines with daily existence, fostering an environment free from threats and concerns. Join us in shaping a safer and more secure future for all"
+          }
+        />
       </div>
     </div>
   );

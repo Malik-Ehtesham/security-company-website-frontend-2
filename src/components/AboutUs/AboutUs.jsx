@@ -1,25 +1,30 @@
-// import { useEffect } from "react";
-// import AboutQuestionSection from "../AboutQuestionSection/AboutQuestionSection";
-// import AboutUsSection from "../AboutUsSection/AboutUsSection";
-// import CtaSection from "../CtaSection/CtaSection";
-// import MainFooter from "../MainFooter/MainFooter";
-// import MainHeader from "../MainHeader/MainHeader";
-// import UniqueSection from "../UniqueSection/UniqueSection";
+import { useEffect } from "react";
 
-// const AboutUs = () => {
-//   useEffect(() => {
-//     window.scrollTo(0, 0);
-//   }, []);
-//   return (
-//     <div>
-//       <MainHeader />
-//       <AboutUsSection />
-//       <UniqueSection />
-//       <AboutQuestionSection />
-//       <CtaSection />
-//       <MainFooter />
-//     </div>
-//   );
-// };
+import AboutUsSection from "../AboutUsSection/AboutUsSection";
 
-// export default AboutUs;
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+import QuestionSection from "../QuestionSection/QuestionSection";
+import UniqueSection from "../UniqueSection/UniqueSection";
+import AboutQuestionSection from "../AboutQuestionSection/AboutQuestionSection";
+import CtaSection from "../CtaSection/CtaSection";
+
+const AboutUs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  return (
+    <div>
+      <Header />
+      <AboutUsSection />
+      <UniqueSection />
+      <AboutQuestionSection />
+      {/* <UniqueSection /> */}
+      {/* <AboutQuestionSection /> */}
+      <CtaSection />
+      <Footer />
+    </div>
+  );
+};
+
+export default AboutUs;
