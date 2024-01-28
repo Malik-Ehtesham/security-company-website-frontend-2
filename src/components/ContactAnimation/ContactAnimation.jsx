@@ -1,4 +1,4 @@
-import ContactLottie from "../../utils/Lotties/Contact.json";
+import ContactLottie from "../../utils/Lotties/contact.json";
 
 import { Player } from "@lottiefiles/react-lottie-player";
 
