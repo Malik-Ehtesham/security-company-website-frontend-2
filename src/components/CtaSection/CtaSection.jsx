@@ -16,7 +16,7 @@ const CtaSection = () => {
               Ready to
               <span className="text-sky-500 block">Secure your World?</span>
             </p>
-            <p className="text-gray-700 text-lg sm:text-xl lg:text-lg xl:text-xl text-center lg:text-start  my-8 sm:w-3/5">
+            <p className="text-gray-700 dark:text-white text-lg sm:text-xl lg:text-lg xl:text-xl text-center lg:text-start  my-8 sm:w-3/5">
               Discover top-tier security for your home, business, or events with
               BKF. Contact us for a personalized assessment, and let's create a
               customized security plan just for you. Click below to prioritize
