@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./HomeSection.css";
 import { TypeAnimation } from "react-type-animation";
 
@@ -26,9 +27,18 @@ const HomeSection = () => {
             />
           </p>
           <div>
-            <button className="btn btn-info  sm:btn-lg my-6 text-white">
-              Contact Now
-            </button>
+            <Link
+              to="/contactus"
+              className="btn btn-info  md:btn-lg my-6 text-white mx-1"
+            >
+              Get Started
+            </Link>
+            <Link
+              to="/aboutus"
+              className="btn btn-warning  md:btn-lg my-6  text-white mx-4"
+            >
+              Learn More
+            </Link>
           </div>
         </div>
       </div>

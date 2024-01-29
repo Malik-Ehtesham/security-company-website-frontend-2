@@ -6,7 +6,7 @@ const UniqueSection = () => {
   return (
     <div className="my-">
       <Fade direction="up">
-        <p className=" text-center text-3xl md:text-4xl lg:text-5xl font-black mb-5">
+        <p className=" text-center text-3xl md:text-4xl lg:text-5xl font-black mb-5 p-0.5">
           What Make Us <span className="text-sky-500">Unique</span>
         </p>
 

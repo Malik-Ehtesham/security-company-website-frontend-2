@@ -87,7 +87,7 @@ const Navbar = (props) => {
               className=" transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300  flex  items-center  mx-1"
             >
               <Link
-                to="/"
+                to="/career"
                 className={`text-sm xl:text-lg ${
                   props.page === "Home" ? "text-white" : "text-sky-500"
                 }  hover:text-yellow-400 font-semibold  p-1.5 xl:p-4 rounded-full   ${
@@ -102,7 +102,7 @@ const Navbar = (props) => {
               className=" transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300  flex  items-center  mx-1"
             >
               <Link
-                to="/"
+                to="/contactus"
                 className={`text-sm xl:text-lg ${
                   props.page === "Home" ? "text-white" : "text-sky-500"
                 }  hover:text-yellow-400 font-semibold  p-1.5 xl:p-4 rounded-full   ${

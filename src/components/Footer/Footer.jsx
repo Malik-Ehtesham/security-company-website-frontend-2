@@ -30,25 +30,25 @@ const Footer = () => {
                   Home
                 </Link>
                 <Link
-                  to="/"
+                  to="/aboutus"
                   className="link link-hover text-white hover:text-yellow-400 my-2"
                 >
                   About Us
                 </Link>
                 <Link
-                  to="/"
+                  to="/services"
                   className="link link-hover text-white hover:text-yellow-400 my-2"
                 >
                   Security Services
                 </Link>{" "}
                 <Link
-                  to="/"
+                  to="/career"
                   className="link link-hover text-white hover:text-yellow-400 my-2"
                 >
                   Career
                 </Link>{" "}
                 <Link
-                  to="/"
+                  to="/contactus"
                   className="link link-hover text-white hover:text-yellow-400 my-2"
                 >
                   Contact Us
@@ -75,7 +75,7 @@ const Footer = () => {
                   Privacy policy
                 </Link>
                 <Link
-                  to="/"
+                  to="/aboutus"
                   className="link link-hover text-white hover:text-yellow-400
                 my-2"
                 >

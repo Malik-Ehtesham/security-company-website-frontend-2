@@ -6,7 +6,7 @@ const QuestionSection = () => {
   return (
     <div className="flex justify-center">
       <div className=" sm:w-5/6 ">
-        <div className="flex flex-col justify-between items-center lg:flex-row   py-10">
+        <div className="flex flex-col justify-between items-center lg:flex-row   pb-5 lg:pb-10 lg:pt-10">
           <div className="p-4 flex justify-center flex-col items-center lg:items-start">
             <p className=" text-center lg:text-start text-4xl md:text-5xl font-black  ">
               Any <span className="text-sky-500"> Questions?</span>
@@ -18,7 +18,7 @@ const QuestionSection = () => {
               Don’t find your answer here? Just send us a message for any query.
             </p>
             <Link
-              to="/contact"
+              to="/contactus"
               className="btn btn-info text-white px-8 p-4 mt-8 text-lg"
             >
               Contact Us
