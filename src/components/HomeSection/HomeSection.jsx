@@ -6,7 +6,7 @@ const HomeSection = () => {
   return (
     <div className="sm:flex sm:justify-center">
       <div className="sm:w-5/6">
-        <div className="flex flex-col  my-16 lg:my-52 2xl:my-56 p-5 px-5 sm:px-0">
+        <div className="flex flex-col  my-20 lg:my-52 2xl:my-56 p-5 px-5 sm:px-0">
           <p className="text-4xl min-[500px]:text-4xl xl:text-6xl  font-black text-white">
             Ihre Sicherheit, unsere Priorität
           </p>
