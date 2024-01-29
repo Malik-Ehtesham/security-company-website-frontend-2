@@ -19,8 +19,6 @@ const AboutUs = () => {
       <AboutUsSection />
       <UniqueSection />
       <AboutQuestionSection />
-      {/* <UniqueSection /> */}
-      {/* <AboutQuestionSection /> */}
       <CtaSection />
       <Footer />
     </div>

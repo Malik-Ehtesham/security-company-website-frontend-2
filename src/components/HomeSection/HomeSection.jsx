@@ -6,20 +6,20 @@ const HomeSection = () => {
   return (
     <div className="sm:flex sm:justify-center">
       <div className="sm:w-5/6">
-        <div className="flex flex-col  my-24 lg:my-52 2xl:my-56 p-5 px-10 sm:px-0">
+        <div className="flex flex-col  my-16 lg:my-52 2xl:my-56 p-5 px-5 sm:px-0">
           <p className="text-4xl min-[500px]:text-4xl xl:text-6xl  font-black text-white">
-            Your Safety, Our Priority
+            Ihre Sicherheit, unsere Priorität
           </p>
-          <p className="text-3xl min-[500px]:text-4xl xl:text-6xl  font-black text-yellow-400">
+          <p className="text-3xl min-[500px]:text-4xl xl:text-6xl  font-bold sm:font-black text-yellow-400">
             <TypeAnimation
               preRenderFirstString={true}
               sequence={[
                 500,
-                "Providing Security Beyond Boundaries", // initially rendered starting point
+                "Für Sicherheit über Grenzen hinweg sorgen", // initially rendered starting point
                 1000,
-                "Elevating Security Standards",
+                "Erhöhung der Sicherheitsstandards",
                 1000,
-                "Your Trusted Security Solution",
+                "Ihre vertrauenswürdige Sicherheitslösung",
                 500,
               ]}
               speed={25}
@@ -31,13 +31,13 @@ const HomeSection = () => {
               to="/contactus"
               className="btn btn-info  md:btn-lg my-6 text-white mx-1"
             >
-              Get Started
+              Loslegen
             </Link>
             <Link
               to="/aboutus"
               className="btn btn-warning  md:btn-lg my-6  text-white mx-4"
             >
-              Learn More
+              Erfahren Sie mehr
             </Link>
           </div>
         </div>

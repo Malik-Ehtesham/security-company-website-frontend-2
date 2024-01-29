@@ -17,7 +17,7 @@ const AboutCardLeft = (props) => {
                 to="/pricing"
                 className="btn  btn-info text-white text-lg py-4 px-8 my-8"
               >
-                Get Started
+                Loslegen
               </Link>
             </div>
           </div>

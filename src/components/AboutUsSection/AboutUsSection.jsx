@@ -1,4 +1,5 @@
 import About1 from "../../utils/images/aboutcards/about-2.jpg";
+import About2 from "../../utils/images/aboutcards/about-3.jpg";
 
 import AboutCardLeft from "../AboutCardLeft/AboutCardLeft";
 import AboutCardRight from "../AboutCardRight/AboutCardRight";
@@ -7,17 +8,17 @@ const AboutUsSection = () => {
     <div className="flex justify-center ">
       <div className=" lg:mt-14 ">
         <AboutCardLeft
-          title={"Who Are We?"}
+          title={"Wer sind wir?"}
           image={About1}
           description={
-            "At BKF, we're more than just a security service – we're your dedicated partners in protection. With a commitment to excellence, our experienced professionals deliver innovative security solutions tailored to your unique needs. Trust us to redefine standards and provide comprehensive security across residential, corporate, and event environments. At BKF, your safety is our top priority"
+            "Bei BKF sind wir mehr als nur ein Sicherheitsdienst – wir sind Ihre engagierten Partner im Schutz. Mit einem Bekenntnis zur Exzellenz liefern unsere erfahrenen Fachleute innovative Sicherheitslösungen, die auf Ihre einzigartigen Bedürfnisse zugeschnitten sind. Vertrauen Sie darauf, dass wir Standards neu definieren und umfassende Sicherheit in Wohn-, Unternehmens- und Veranstaltungsumgebungen bieten. Bei BKF steht Ihre Sicherheit an erster Stelle."
           }
         />
         <AboutCardRight
-          title={"Our Vision"}
-          image={About1}
+          title={"Unsere Vision"}
+          image={About2}
           description={
-            "At BKF, our vision is to redefine security, envisioning a future where safety is a fundamental right. We aspire to be leaders in innovative and personalized security solutions, leveraging technology and unwavering commitment to protect what matters most to our clients. At BKF, we foresee a world where security seamlessly intertwines with daily existence, fostering an environment free from threats and concerns. Join us in shaping a safer and more secure future for all"
+            "Bei BKF ist unsere Vision, Sicherheit neu zu definieren und eine Zukunft zu gestalten, in der Sicherheit ein Grundrecht ist. Wir streben danach, führend in innovativen und personalisierten Sicherheitslösungen zu sein, indem wir Technologie und unerschütterliches Engagement nutzen, um das zu schützen, was für unsere Kunden am wichtigsten ist. Bei BKF sehen wir eine Welt vor, in der Sicherheit nahtlos mit dem täglichen Leben verwoben ist und eine Umgebung ohne Bedrohungen und Sorgen fördert. Begleiten Sie uns dabei, eine sicherere und geschütztere Zukunft für alle zu gestalten."
           }
         />
       </div>

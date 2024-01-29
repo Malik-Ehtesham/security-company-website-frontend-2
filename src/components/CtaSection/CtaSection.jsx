@@ -13,27 +13,29 @@ const CtaSection = () => {
         <div className="lg:grid lg:grid-cols-12">
           <div className="flex flex-col  items-center lg:items-start justify-center px-4 lg:col-span-7">
             <p className=" text-center lg:text-start  text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-black leading-tight">
-              Ready to
-              <span className="text-sky-500 block">Secure your World?</span>
+              Bereit zu
+              <span className="text-sky-700 block">Sichern Sie Ihre Welt?</span>
             </p>
             <p className="text-gray-700  text-lg sm:text-xl lg:text-lg xl:text-xl text-center lg:text-start  my-8 sm:w-3/5">
-              Discover top-tier security for your home, business, or events with
-              BKF. Contact us for a personalized assessment, and let's create a
-              customized security plan just for you. Click below to prioritize
-              safety today!
+              Entdecken Sie mit BKF erstklassige Sicherheit für Ihr Zuhause, Ihr
+              Unternehmen oder Ihre Veranstaltungen. Kontaktieren Sie uns für
+              eine individuelle Bewertung und lassen Sie uns einen
+              maßgeschneiderten Sicherheitsplan speziell für Sie erstellen.
+              Klicken Sie unten, um der Sicherheit noch heute Priorität
+              einzuräumen!
             </p>
             <div className="flex flex-col sm:flex-row items-center">
               <Link
                 to="/contactus"
                 className="btn btn-info text-white p-4 px-8 my-2 text-lg sm:me-4"
               >
-                Get Started
+                Loslegen
               </Link>
               <Link
                 to="/aboutus"
                 className="btn btn-info btn-outline p-4 px-8  my-2 text-lg sm:mx-4"
               >
-                Learn More
+                Erfahren Sie mehr
               </Link>
             </div>
           </div>

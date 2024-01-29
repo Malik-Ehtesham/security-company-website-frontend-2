@@ -16,16 +16,14 @@ const ContactUsForm = () => {
   const sendEmail = () => {
     emailjs
       .sendForm(
-        "service_urg84vl",
-        "template_kwz9wpk",
+        "service_dl5vngo",
+        "template_nho43uu",
         form.current,
-        "2ENb1dKB2vl177E8V"
+        "PJjfhBNaeGAwrNW6k"
       )
       .then(
         (result) => {
-          console.log("BOERTY");
-
-          toast.success("Message Sent!", {
+          toast.success("Nachricht gesendet!", {
             position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,
@@ -50,51 +48,55 @@ const ContactUsForm = () => {
     <div className="col-span-1">
       <form
         ref={form}
-        className="bg-sky-500 p-4 py-8 rounded-lg"
+        className="bg-sky-700 p-4 py-8 rounded-lg"
         onSubmit={handleSubmit(sendEmail)}
       >
         <div className="flex  flex-col justify-between items-center xl:flex-row my-2">
-          <input
-            {...register("user_name", { required: true })}
-            type="text"
-            placeholder="Name"
-            name="user_name"
-            className="input input-bordered input-info w-full  m-1"
-          />
-          {errors.user_name && (
-            <p className="font-bold text-center text-red-500 bg-white px-2 rounded-lg">
-              Name is Required
-            </p>
-          )}
-          <input
-            {...register("user_email", { required: true })}
-            type="email"
-            placeholder="Email"
-            name="user_email"
-            className="input input-bordered input-info w-full m-1 "
-          />
-          {errors.user_email && (
-            <p className="font-bold text-center text-red-500 bg-white px-2 rounded-lg">
-              Email is Required
-            </p>
-          )}
+          <div className="w-full m-1 flex flex-col items-center ">
+            <input
+              {...register("user_name", { required: true })}
+              type="text"
+              placeholder="Name"
+              name="user_name"
+              className="input input-bordered input-info w-full  "
+            />
+            {errors.user_name && (
+              <p className="font-bold text-center text-red-500 bg-white px-2 rounded-lg mt-1">
+                Name ist erforderlich
+              </p>
+            )}
+          </div>
+          <div className="w-full m-1  flex flex-col items-center ">
+            <input
+              {...register("user_email", { required: true })}
+              type="email"
+              placeholder="Email"
+              name="user_email"
+              className="input input-bordered input-info w-full  "
+            />
+            {errors.user_email && (
+              <p className="font-bold text-center text-red-500 bg-white px-2 rounded-lg mt-1">
+                Email ist erforderlich
+              </p>
+            )}
+          </div>
         </div>
         <div className="mt-3 xl:mt-5 flex justify-center flex-col items-center">
           <textarea
             {...register("message", { required: true })}
-            placeholder="Message"
+            placeholder="Nachricht"
             name="message"
             className="textarea textarea-bordered textarea-lg w-full h-48  "
           ></textarea>
           {errors.message && (
             <p className="font-bold text-center text-red-500 bg-white px-2 rounded-lg  mt-2">
-              Message is Required
+              Nachricht ist erforderlich
             </p>
           )}
         </div>
         <div className="mt-5 ">
           <button className="btn btn-warning text-white w-full">
-            Send Message
+            Nachricht senden
           </button>
         </div>
       </form>

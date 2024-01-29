@@ -21,10 +21,11 @@ const Navbar = (props) => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [scrolled]);
+
   return (
     <div
       className={`flex justify-center fixed w-full z-10  rounded-sm ${
-        scrolled ? "bg-sky-500 " : ""
+        scrolled ? "bg-sky-700 " : ""
       } `}
     >
       <div className="navbar  px-10 xl:px-20 py-4">
@@ -32,7 +33,7 @@ const Navbar = (props) => {
           <Link to="/">
             <img
               src={Logo}
-              className="w-20 h-20 border-4 border-sky-400 rounded-full"
+              className="w-20 h-20 border-4 border-sky-700 rounded-full"
             />
           </Link>
         </div>
@@ -42,12 +43,12 @@ const Navbar = (props) => {
               <Link
                 to="/"
                 className={`text-sm xl:text-lg ${
-                  props.page === "Home" ? "text-white" : "text-sky-500"
-                }  hover:text-yellow-400 font-semibold  p-1.5 xl:p-4 rounded-full  ${
-                  scrolled ? "text-white" : ""
+                  props.page === "Home" ? "text-white" : "text-sky-700"
+                }  hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full  ${
+                  scrolled ? "text-slate-100" : ""
                 }  `}
               >
-                Home
+                Startseite
               </Link>
             </li>
 
@@ -58,13 +59,12 @@ const Navbar = (props) => {
               <Link
                 to="/aboutus"
                 className={`text-sm xl:text-lg ${
-                  props.page === "Home" ? "text-white" : "text-sky-500"
-                }  hover:text-yellow-400 font-semibold  p-1.5 xl:p-4 rounded-full  ${
-                  scrolled ? "text-white" : ""
+                  props.page === "Home" ? "text-white" : "text-sky-700"
+                }  hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full  ${
+                  scrolled ? "text-slate-100" : ""
                 } `}
               >
-                {" "}
-                About Us
+                Über uns
               </Link>
             </li>
             <li
@@ -74,12 +74,12 @@ const Navbar = (props) => {
               <Link
                 to="/services"
                 className={`text-sm xl:text-lg ${
-                  props.page === "Home" ? "text-white" : "text-sky-500"
-                }  hover:text-yellow-400 font-semibold  p-1.5 xl:p-4 rounded-full   ${
-                  scrolled ? "text-white" : ""
+                  props.page === "Home" ? "text-white" : "text-sky-700"
+                }  hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full   ${
+                  scrolled ? "text-slate-100" : ""
                 }`}
               >
-                Security Services
+                Sicherheitsdienste
               </Link>
             </li>
             <li
@@ -89,12 +89,12 @@ const Navbar = (props) => {
               <Link
                 to="/career"
                 className={`text-sm xl:text-lg ${
-                  props.page === "Home" ? "text-white" : "text-sky-500"
-                }  hover:text-yellow-400 font-semibold  p-1.5 xl:p-4 rounded-full   ${
-                  scrolled ? "text-white" : ""
+                  props.page === "Home" ? "text-white" : "text-sky-700"
+                }  hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full   ${
+                  scrolled ? "text-slate-100" : ""
                 }`}
               >
-                Career
+                Karriere
               </Link>
             </li>
             <li
@@ -104,12 +104,12 @@ const Navbar = (props) => {
               <Link
                 to="/contactus"
                 className={`text-sm xl:text-lg ${
-                  props.page === "Home" ? "text-white" : "text-sky-500"
-                }  hover:text-yellow-400 font-semibold  p-1.5 xl:p-4 rounded-full   ${
-                  scrolled ? "text-white" : ""
+                  props.page === "Home" ? "text-white" : "text-sky-700"
+                }  hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full   ${
+                  scrolled ? "text-slate-100" : ""
                 }`}
               >
-                Contact Us
+                Kontaktiere uns
               </Link>
             </li>
           </ul>

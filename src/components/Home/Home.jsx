@@ -23,22 +23,23 @@ const Home = () => {
         <HomeSection />
       </div>
       <AboutCardLeft
-        title={"Who Are We?"}
+        title={"Wer sind wir?"}
         image={About1}
         description={
-          "At BKF, we're more than just a security service – we're your dedicated partners in protection. With a commitment to excellence, our experienced professionals deliver innovative security solutions tailored to your unique needs. Trust us to redefine standards and provide comprehensive security across residential, corporate, and event environments. At BKF, your safety is our top priority"
+          "Bei BKF sind wir mehr als nur ein Sicherheitsdienst – wir sind Ihre engagierten Partner im Schutz. Mit einem Bekenntnis zur Exzellenz liefern unsere erfahrenen Fachleute innovative Sicherheitslösungen, die auf Ihre einzigartigen Bedürfnisse zugeschnitten sind. Vertrauen Sie darauf, dass wir Standards neu definieren und umfassende Sicherheit in Wohn-, Unternehmens- und Veranstaltungsumgebungen bieten. Bei BKF steht Ihre Sicherheit an erster Stelle."
         }
       />
       <UniqueSection />
       <ServicesSection />
       <QuestionSection />
       <AboutCardRight
-        title={"Catchment Area"}
+        title={"Einzugsgebiet"}
         image={MapImage}
         description={
-          "In our Catchment Area section, we proudly present the expansive regions covered by our security services. Our commitment to safeguarding extends across Rhine-Main Area, ensuring that individuals, residences, and businesses within this territory benefit from our comprehensive security solutions. By strategically defining our catchment area, we strive to establish a strong and responsive security network, enabling swift and efficient protection for our valued clients. Explore the map to see how BKF stands as a vigilant guardian within these designated boundaries, providing peace of mind and security where it matters most."
+          "In unserem Abschnitt Einzugsgebiet präsentieren wir stolz die umfangreichen Regionen, die von unseren Sicherheitsdienstleistungen abgedeckt werden. Unser Engagement für den Schutz erstreckt sich über das Rhein-Main-Gebiet und gewährleistet, dass Einzelpersonen, Wohnsitze und Unternehmen innerhalb dieses Gebiets von unseren umfassenden Sicherheitslösungen profitieren. Durch die strategische Definition unseres Einzugsgebiets streben wir danach, ein starkes und reaktionsschnelles Sicherheitsnetzwerk aufzubauen, das eine schnelle und effiziente Sicherung für unsere geschätzten Kunden ermöglicht. Erkunden Sie die Karte, um zu sehen, wie BKF als wachsamer Beschützer innerhalb dieser festgelegten Grenzen steht und Sicherheit bietet, wo es am wichtigsten ist."
         }
       />
+
       <CtaSection />
       <Footer />
     </div>

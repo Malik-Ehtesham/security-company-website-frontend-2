@@ -9,28 +9,30 @@ const ServicesSection = () => {
     <div className="flex justify-center mt-10  p-2 sm:p-0">
       <div className="sm:w-5/6">
         <div>
-          <p className=" text-center text-3xl sm:text-5xl font-bold my-2">
-            <span className="text-sky-500"> Security</span> Services
+          <p className="text-center text-3xl sm:text-5xl font-bold my-2">
+            <span className="text-sky-700">Sicherheits</span>-Dienstleistungen
           </p>
-          <p className="text-center  text-lg sm:text-xl font-medium tracking-wide mb-10 p-8 sm:p-0">
-            Welcome to BKF, where security meets simplicity. Our commitment is
-            clear: your safety. Our tailored solutions, backed by a dedicated
-            team, ensure a protective shield around what matters most to you.
-            Explore peace of mind with BKF – where security is not just a
-            service; it's our mission.
+          <p className="text-center text-lg sm:text-xl font-medium tracking-wide mb-10 p-8 sm:p-0">
+            Herzlich willkommen bei BKF, wo Sicherheit auf Einfachheit trifft.
+            Unser Engagement ist klar: Ihre Sicherheit. Unsere maßgeschneiderten
+            Lösungen, unterstützt von einem engagierten Team, gewährleisten
+            einen Schutzschild um das, was für Sie am wichtigsten ist. Erkunden
+            Sie die Gelassenheit mit BKF – hier ist Sicherheit nicht nur ein
+            Service; es ist unsere Mission.
           </p>
         </div>
+
         <div className="flex justify-around  flex-wrap overflow-auto gap-y-5  items-center py-5">
-          <ServicesCard title={"Property Protection"} image={Service1} />
-          <ServicesCard title={"Fire Watch"} image={Service2} />
-          <ServicesCard title={"Guarding"} image={Service3} />
+          <ServicesCard title={"Eigentumsschutz"} image={Service1} />
+          <ServicesCard title={"Feueruhr"} image={Service2} />
+          <ServicesCard title={"Bewachung"} image={Service3} />
         </div>
         <div className="flex justify-center my-5">
           <Link
             to="/services"
             className="btn text-white rounded-full  btn-lg btn-info "
           >
-            See More
+            Mehr sehen
           </Link>
         </div>
       </div>

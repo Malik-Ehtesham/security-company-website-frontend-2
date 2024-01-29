@@ -5,52 +5,52 @@ const AboutQuestionSection = () => {
     <div className=" flex justify-center flex-col items-center py-5">
       <div className="sm:w-5/6">
         <p className=" text-center text-3xl md:text-4xl lg:text-5xl font-black">
-          Any <span className="text-sky-500">Questions?</span>
+          Any <span className="text-sky-700">Fragen?</span>
         </p>
         <p className=" text-center text-3xl md:text-4xl lg:text-5xl font-black">
-          We have Answers!
+          Wir haben Antworten!
         </p>
       </div>
       <div className="my-5 mt-10 flex flex-col justify-center items-center ">
         <QuestionAccordion
-          question="What security services do you offer?"
-          answer="We provide a comprehensive range of security services, including surveillance, access control, alarms, and security personnel for both residential and commercial needs."
+          question="Welche Sicherheitsdienstleistungen bieten Sie an?"
+          answer="Wir bieten eine umfassende Palette von Sicherheitsdienstleistungen an, einschließlich Überwachung, Zugangskontrolle, Alarmanlagen und Sicherheitspersonal für sowohl private als auch kommerzielle Anforderungen."
         />
         <QuestionAccordion
-          question="How can I request a security assessment for my property?"
-          answer="Initiating a security assessment is simple. Utilize our contact form to request a consultation, and we'll promptly schedule an assessment. Our team will then recommend customized security solutions based on your unique requirements."
+          question="Wie kann ich eine Sicherheitsbewertung für mein Grundstück anfordern?"
+          answer="Die Beantragung einer Sicherheitsbewertung ist einfach. Nutzen Sie unser Kontaktformular, um eine Beratung anzufordern, und wir werden umgehend eine Bewertung planen. Unser Team wird dann basierend auf Ihren einzigartigen Anforderungen maßgeschneiderte Sicherheitslösungen empfehlen."
         />
         <QuestionAccordion
-          question="What makes your security personnel different?"
-          answer="Our security personnel stand out due to their rigorous training, selection based on expertise, professionalism, and a steadfast commitment to ensuring the safety of our clients. They form an integral part of our comprehensive security approach."
+          question="Was macht Ihr Sicherheitspersonal anders?"
+          answer="Unser Sicherheitspersonal zeichnet sich durch strenge Schulung, Auswahl nach Fachkenntnissen, Professionalität und einem festen Engagement für die Sicherheit unserer Kunden aus. Sie bilden einen integralen Bestandteil unserer umfassenden Sicherheitsansätze."
         />
         <QuestionAccordion
-          question="Can I integrate existing security systems with your services?"
-          answer="Certainly. We specialize in seamlessly integrating our security solutions with your current systems, ensuring enhanced functionality and a cohesive security infrastructure that aligns with your specific needs."
+          question="Kann ich bestehende Sicherheitssysteme mit Ihren Dienstleistungen integrieren?"
+          answer="Selbstverständlich. Wir haben uns darauf spezialisiert, unsere Sicherheitslösungen nahtlos in Ihre aktuellen Systeme zu integrieren und so eine verbesserte Funktionalität und eine zusammenhängende Sicherheitsinfrastruktur zu gewährleisten, die Ihren spezifischen Anforderungen entspricht."
         />
         <QuestionAccordion
-          question="Do you offer 24/7 monitoring services?"
-          answer="Yes, our commitment to your safety extends around the clock. Our 24/7 monitoring services guarantee continuous protection, with swift responses to any potential security incidents."
+          question="Bieten Sie 24/7 Überwachungsdienste an?"
+          answer="Ja, unser Engagement für Ihre Sicherheit erstreckt sich rund um die Uhr. Unsere 24/7 Überwachungsdienste garantieren kontinuierlichen Schutz mit schnellen Reaktionen auf mögliche Sicherheitsvorfälle."
         />
         <QuestionAccordion
-          question="How do you handle emergency response situations?"
-          answer="In emergency situations, our team follows detailed response plans, acting swiftly and efficiently to address the situation. We also coordinate seamlessly with local authorities when necessary, ensuring a comprehensive emergency response."
+          question="Wie gehen Sie mit Notfallsituationen um?"
+          answer="In Notfallsituationen folgt unser Team detaillierten Reaktionsplänen, handelt schnell und effizient, um die Situation zu bewältigen. Wir arbeiten auch nahtlos mit örtlichen Behörden zusammen, wenn erforderlich, und gewährleisten so eine umfassende Notfallreaktion."
         />
         <QuestionAccordion
-          question="Can I customize security packages to suit my needs?"
-          answer="Absolutely. We understand that each client has unique security requirements. Our team collaborates closely with you to create personalized security packages that address your specific concerns and provide a tailored solution."
+          question="Kann ich Sicherheitspakete nach meinen Bedürfnissen anpassen?"
+          answer="Absolut. Wir verstehen, dass jeder Kunde einzigartige Sicherheitsanforderungen hat. Unser Team arbeitet eng mit Ihnen zusammen, um personalisierte Sicherheitspakete zu erstellen, die Ihre spezifischen Anliegen ansprechen und eine maßgeschneiderte Lösung bieten."
         />
         <QuestionAccordion
-          question="What areas do you provide security services in?"
-          answer="Our services extend to [list the areas/cities/regions you cover]. Feel free to contact us to inquire about our availability in your specific location and discuss your security needs."
+          question="In welchen Gebieten bieten Sie Sicherheitsdienste an?"
+          answer="Unsere Dienstleistungen erstrecken sich über [Liste der Gebiete/Städte/Regionen, die Sie abdecken]. Kontaktieren Sie uns gerne, um die Verfügbarkeit an Ihrem speziellen Standort zu erfragen und Ihre Sicherheitsbedürfnisse zu besprechen."
         />
         <QuestionAccordion
-          question="How do I get in touch with your team for more information?"
-          answer="Getting in touch is convenient. You can reach us through our user-friendly contact form on the website, call our dedicated phone line, or visit our office during regular business hours. Our team is ready to assist with any inquiries or concerns."
+          question="Wie kann ich mit Ihrem Team für weitere Informationen in Kontakt treten?"
+          answer="Die Kontaktaufnahme ist einfach. Sie können uns über unser benutzerfreundliches Kontaktformular auf der Website erreichen, unsere dedizierte Telefonleitung anrufen oder während der regulären Geschäftszeiten unser Büro besuchen. Unser Team steht bereit, um bei Anfragen oder Anliegen zu helfen."
         />
         <QuestionAccordion
-          question="Are your services compliant with industry standards?"
-          answer="Yes, we pride ourselves on adhering to the highest industry standards and regulations. Our security services are designed to meet or exceed the security requirements outlined by relevant authorities, ensuring utmost reliability and professionalism in every aspect of our offerings."
+          question="Entsprechen Ihre Dienstleistungen den Branchenstandards?"
+          answer="Ja, wir sind stolz darauf, uns an die höchsten Branchenstandards und Vorschriften zu halten. Unsere Sicherheitsdienstleistungen sind darauf ausgelegt, die Sicherheitsanforderungen der relevanten Behörden zu erfüllen oder sogar zu übertreffen und so höchste Zuverlässigkeit und Professionalität in jeder Hinsicht unserer Angebote zu gewährleisten."
         />
       </div>
     </div>

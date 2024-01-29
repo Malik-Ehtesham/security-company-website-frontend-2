@@ -7,8 +7,8 @@ const CareerSection = () => {
     <div className="xl:py-16 2xl:py-20">
       <AboutCardLeft
         image={HandShakeImage}
-        title="Start Your Career With Us"
-        description="BKF is seeking committed security personnel with Section 34a training and successful completion of a competency test. If you're interested, kindly submit your application documents to info@bkf.com. We provide competitive compensation that surpasses industry standards"
+        title="Starten Sie Ihre Karriere mit uns"
+        description="BKF sucht engagierte Sicherheitsmitarbeiter mit Section 34a-Schulung und erfolgreich bestandenem Kompetenztest. Wenn Sie interessiert sind, senden Sie bitte Ihre Bewerbungsunterlagen an info@bkf.com. Wir bieten eine wettbewerbsfähige Vergütung, die Branchenstandards übertrifft."
       />
     </div>
   );
