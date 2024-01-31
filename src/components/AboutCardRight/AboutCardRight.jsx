@@ -10,14 +10,14 @@ const AboutCardRight = (props) => {
       <div className="sm:w-5/6">
         <div className=" grid grid-cols-1  lg:grid-cols-2   lg:my-24">
           <div className="px-4  flex flex-col justify-center">
-            <p className="text-3xl md:text-5xl font-black my-6">
+            <p className="text-3xl text-white md:text-5xl font-black my-6">
               {props.title}
             </p>
             <p className="text-lg">{props.description}</p>
             <div>
               <Link
                 to="/contactus"
-                className="btn  btn-info text-white text-lg py-4 px-8 my-12"
+                className="btn  btn-warning  text-black rounded-lg  text-lg py-4 px-8 my-12"
               >
                 Loslegen
               </Link>
@@ -45,14 +45,14 @@ const AboutCardRight = (props) => {
             </Fade>
           </div>
           <div className="p-4 pb-0 flex flex-col justify-center">
-            <p className="text-3xl md:text-5xl  font-black my-6">
+            <p className="text-3xl md:text-5xl text-white  font-black my-6">
               {props.title}
             </p>
             <p className=" text-lg">{props.description}</p>
             <div>
               <Link
                 to="/contactus"
-                className="btn  btn-info text-white text-lg py-4 px-8 my-12"
+                className="btn  btn-warning  text-black rounded-lg  text-lg py-4 px-8 my-12"
               >
                 Loslegen
               </Link>

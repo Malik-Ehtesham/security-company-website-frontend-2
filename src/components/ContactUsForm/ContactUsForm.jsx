@@ -48,7 +48,7 @@ const ContactUsForm = () => {
     <div className="col-span-1">
       <form
         ref={form}
-        className="bg-sky-700 p-4 py-8 rounded-lg"
+        className="bg-white p-4 py-8 rounded-lg"
         onSubmit={handleSubmit(sendEmail)}
       >
         <div className="flex  flex-col justify-between items-center xl:flex-row my-2">
@@ -58,7 +58,7 @@ const ContactUsForm = () => {
               type="text"
               placeholder="Name"
               name="user_name"
-              className="input input-bordered input-info w-full  "
+              className="input input-bordered input-info w-full text-white rounded-lg "
             />
             {errors.user_name && (
               <p className="font-bold text-center text-red-500 bg-white px-2 rounded-lg mt-1">
@@ -72,7 +72,7 @@ const ContactUsForm = () => {
               type="email"
               placeholder="Email"
               name="user_email"
-              className="input input-bordered input-info w-full  "
+              className="input input-bordered input-info w-full text-white  rounded-lg"
             />
             {errors.user_email && (
               <p className="font-bold text-center text-red-500 bg-white px-2 rounded-lg mt-1">
@@ -86,7 +86,7 @@ const ContactUsForm = () => {
             {...register("message", { required: true })}
             placeholder="Nachricht"
             name="message"
-            className="textarea textarea-bordered textarea-lg w-full h-48  "
+            className="textarea textarea-bordered textarea-lg text-white w-full h-48  rounded-lg"
           ></textarea>
           {errors.message && (
             <p className="font-bold text-center text-red-500 bg-white px-2 rounded-lg  mt-2">
@@ -95,7 +95,7 @@ const ContactUsForm = () => {
           )}
         </div>
         <div className="mt-5 ">
-          <button className="btn btn-warning text-white w-full">
+          <button className="btn btn-warning  text-black rounded-lg  w-full">
             Nachricht senden
           </button>
         </div>

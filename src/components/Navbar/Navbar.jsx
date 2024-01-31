@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
-import Logo from "../../utils/images/icons/logo.jpg";
+import Logo from "../../utils/images/icons/logo.jpeg";
 import { useEffect, useState } from "react";
 
 const Navbar = (props) => {
@@ -25,7 +25,7 @@ const Navbar = (props) => {
   return (
     <div
       className={`flex justify-center fixed w-full z-10  rounded-sm ${
-        scrolled ? "bg-sky-700 " : ""
+        scrolled ? "bg-black " : ""
       } `}
     >
       <div className="navbar  px-10 xl:px-20 py-4">
@@ -33,7 +33,7 @@ const Navbar = (props) => {
           <Link to="/">
             <img
               src={Logo}
-              className="w-20 h-20 border-4 border-sky-700 rounded-full"
+              className="w-20 h-20 border-4 border-black rounded-full"
             />
           </Link>
         </div>
@@ -42,11 +42,7 @@ const Navbar = (props) => {
             <li className=" transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300  flex  items-center mx-1 ">
               <Link
                 to="/"
-                className={`text-sm xl:text-lg ${
-                  props.page === "Home" ? "text-white" : "text-sky-700"
-                }  hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full  ${
-                  scrolled ? "text-slate-100" : ""
-                }  `}
+                className={`text-sm xl:text-lg hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full text-white  `}
               >
                 Startseite
               </Link>
@@ -58,11 +54,7 @@ const Navbar = (props) => {
             >
               <Link
                 to="/aboutus"
-                className={`text-sm xl:text-lg ${
-                  props.page === "Home" ? "text-white" : "text-sky-700"
-                }  hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full  ${
-                  scrolled ? "text-slate-100" : ""
-                } `}
+                className={`text-sm xl:text-lg hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full  text-white `}
               >
                 Über uns
               </Link>
@@ -73,11 +65,7 @@ const Navbar = (props) => {
             >
               <Link
                 to="/services"
-                className={`text-sm xl:text-lg ${
-                  props.page === "Home" ? "text-white" : "text-sky-700"
-                }  hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full   ${
-                  scrolled ? "text-slate-100" : ""
-                }`}
+                className={`text-sm xl:text-lg hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full   text-white `}
               >
                 Sicherheitsdienste
               </Link>
@@ -88,11 +76,7 @@ const Navbar = (props) => {
             >
               <Link
                 to="/career"
-                className={`text-sm xl:text-lg ${
-                  props.page === "Home" ? "text-white" : "text-sky-700"
-                }  hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full   ${
-                  scrolled ? "text-slate-100" : ""
-                }`}
+                className={`text-sm xl:text-lg hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full   text-white `}
               >
                 Karriere
               </Link>
@@ -103,11 +87,7 @@ const Navbar = (props) => {
             >
               <Link
                 to="/contactus"
-                className={`text-sm xl:text-lg ${
-                  props.page === "Home" ? "text-white" : "text-sky-700"
-                }  hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full   ${
-                  scrolled ? "text-slate-100" : ""
-                }`}
+                className={`text-sm xl:text-lg hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full   text-white `}
               >
                 Kontaktiere uns
               </Link>

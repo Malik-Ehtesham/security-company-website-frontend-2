@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
 
-import LogoImage from "../../utils/images/icons/logo.jpg";
+import LogoImage from "../../utils/images/icons/logo.jpeg";
 
 const Footer = () => {
   return (
-    <footer className="footer-bg bg-sky-700 p-10 pb-0">
+    <footer className="footer-bg bg-black p-10 pb-0 border-t-2">
       <div className="border-b-2 border-white">
         <div className="flex justify-around flex-col lg:flex-row pb-5 md:px-16 lg:px-0">
           <div>
@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="text-center text-white text-xl py-5">
-        Urheberrecht ©2023 BKF.com
+        Urheberrecht ©2023 All-In-1.com
       </p>
     </footer>
   );

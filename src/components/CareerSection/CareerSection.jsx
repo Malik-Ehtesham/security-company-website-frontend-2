@@ -8,7 +8,7 @@ const CareerSection = () => {
       <AboutCardLeft
         image={HandShakeImage}
         title="Starten Sie Ihre Karriere mit uns"
-        description="BKF sucht engagierte Sicherheitsmitarbeiter mit Section 34a-Schulung und erfolgreich bestandenem Kompetenztest. Wenn Sie interessiert sind, senden Sie bitte Ihre Bewerbungsunterlagen an info@bkf.com. Wir bieten eine wettbewerbsfähige Vergütung, die Branchenstandards übertrifft."
+        description="All-In-1 sucht engagierte Sicherheitsmitarbeiter mit Section 34a-Schulung und erfolgreich bestandenem Kompetenztest. Wenn Sie interessiert sind, senden Sie bitte Ihre Bewerbungsunterlagen an info@All-In-1.com. Wir bieten eine wettbewerbsfähige Vergütung, die Branchenstandards übertrifft."
       />
     </div>
   );

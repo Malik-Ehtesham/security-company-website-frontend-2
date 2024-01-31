@@ -29,13 +29,13 @@ const HomeSection = () => {
           <div>
             <Link
               to="/contactus"
-              className="btn btn-info  md:btn-lg my-6 text-white mx-1"
+              className="btn btn-warning  text-black rounded-lg   md:btn-lg my-6 mx-1"
             >
               Loslegen
             </Link>
             <Link
               to="/aboutus"
-              className="btn btn-warning  md:btn-lg my-6  text-white mx-4"
+              className="btn btn-outline btn-warning text-white  rounded-lg  md:btn-lg my-6  mx-4"
             >
               Erfahren Sie mehr
             </Link>

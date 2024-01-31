@@ -12,14 +12,16 @@ const CtaSection = () => {
       <div className="sm:w-5/6">
         <div className="lg:grid lg:grid-cols-12">
           <div className="flex flex-col  items-center lg:items-start justify-center px-4 lg:col-span-7">
-            <p className=" text-center lg:text-start  text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-black leading-tight">
+            <p className=" text-center text-white lg:text-start  text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-black leading-tight">
               Bereit zu
-              <span className="text-sky-700 block">Sichern Sie Ihre Welt?</span>
+              <span className="text-yellow-400 block">
+                Sichern Sie Ihre Welt?
+              </span>
             </p>
-            <p className="text-gray-700  text-lg sm:text-xl lg:text-lg xl:text-xl text-center lg:text-start  my-8 sm:w-3/5">
-              Entdecken Sie mit BKF erstklassige Sicherheit für Ihr Zuhause, Ihr
-              Unternehmen oder Ihre Veranstaltungen. Kontaktieren Sie uns für
-              eine individuelle Bewertung und lassen Sie uns einen
+            <p className="text-white text-lg sm:text-xl lg:text-lg xl:text-xl text-center lg:text-start  my-8 sm:w-3/5">
+              Entdecken Sie mit All-In-1 erstklassige Sicherheit für Ihr
+              Zuhause, Ihr Unternehmen oder Ihre Veranstaltungen. Kontaktieren
+              Sie uns für eine individuelle Bewertung und lassen Sie uns einen
               maßgeschneiderten Sicherheitsplan speziell für Sie erstellen.
               Klicken Sie unten, um der Sicherheit noch heute Priorität
               einzuräumen!
@@ -27,13 +29,13 @@ const CtaSection = () => {
             <div className="flex flex-col sm:flex-row items-center">
               <Link
                 to="/contactus"
-                className="btn btn-info text-white p-4 px-8 my-2 text-lg sm:me-4"
+                className="btn btn-warning  text-black rounded-lg  p-4 px-8 my-2 text-lg sm:me-4"
               >
                 Loslegen
               </Link>
               <Link
                 to="/aboutus"
-                className="btn btn-info btn-outline p-4 px-8  my-2 text-lg sm:mx-4"
+                className="btn btn-warning  text-black rounded-lg  btn-outline p-4 px-8  my-2 text-lg sm:mx-4"
               >
                 Erfahren Sie mehr
               </Link>

@@ -5,7 +5,7 @@ const AboutQuestionSection = () => {
     <div className=" flex justify-center flex-col items-center py-5">
       <div className="sm:w-5/6">
         <p className=" text-center text-3xl md:text-4xl lg:text-5xl font-black">
-          Any <span className="text-sky-700">Fragen?</span>
+          Any <span className="text-white">Fragen?</span>
         </p>
         <p className=" text-center text-3xl md:text-4xl lg:text-5xl font-black">
           Wir haben Antworten!

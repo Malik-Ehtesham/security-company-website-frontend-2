@@ -18,7 +18,7 @@ import ForestIcon from "@mui/icons-material/Forest";
 
 import SettingsIcon from "@mui/icons-material/Settings";
 
-import Logo from "../../utils/images/icons/logo.jpg";
+import Logo from "../../utils/images/icons/logo.jpeg";
 
 export default function SwipeableTemporaryDrawer() {
   const [state, setState] = React.useState({
@@ -48,20 +48,20 @@ export default function SwipeableTemporaryDrawer() {
       //   className="bg-sky-200 h-screen"
     >
       <List className="flex flex-col items-center">
-        <ListItem disablePadding className=" border-b-4 border-sky-700 p-2">
+        <ListItem disablePadding className=" border-b-4 border-yellow-400 p-2">
           {/* <p className=" gradient-text text-lg font-bold">Call Up!</p> */}
           <img
             src={Logo}
-            className="w-20 h-20 mx-2 rounded-full border-4 border-sky-700"
+            className="w-20 h-20 mx-2 rounded-full border-4 border-black"
           />{" "}
         </ListItem>
         <ListItem disablePadding onClick={toggleDrawer(anchor, false)}>
           <Link to="/">
             <ListItemButton>
               <ListItemIcon>
-                <HomeIcon className="text-sky-700" />
+                <HomeIcon className="text-yellow-400" />
               </ListItemIcon>
-              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-sky-700 ">
+              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-yellow-400 ">
                 Heim
               </p>
               {/* <ListItemText primary="Home" /> */}
@@ -72,9 +72,9 @@ export default function SwipeableTemporaryDrawer() {
           <Link to="/aboutus">
             <ListItemButton>
               <ListItemIcon>
-                <InfoIcon className="text-sky-700" />
+                <InfoIcon className="text-yellow-400" />
               </ListItemIcon>
-              <p className="p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-sky-700 ">
+              <p className="p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-yellow-400 ">
                 Über uns
               </p>
             </ListItemButton>
@@ -85,9 +85,9 @@ export default function SwipeableTemporaryDrawer() {
           <Link to="/services">
             <ListItemButton>
               <ListItemIcon>
-                <SecurityIcon className="text-sky-700" />
+                <SecurityIcon className="text-yellow-400" />
               </ListItemIcon>
-              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-sky-700 ">
+              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-yellow-400 ">
                 Sicherheitsdienste
               </p>
             </ListItemButton>
@@ -97,9 +97,9 @@ export default function SwipeableTemporaryDrawer() {
           <Link to="/career">
             <ListItemButton>
               <ListItemIcon>
-                <WorkIcon className="text-sky-700" />
+                <WorkIcon className="text-yellow-400" />
               </ListItemIcon>
-              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-sky-700 ">
+              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-yellow-400 ">
                 Karriere
               </p>
             </ListItemButton>
@@ -109,9 +109,9 @@ export default function SwipeableTemporaryDrawer() {
           <Link to="/contactus">
             <ListItemButton>
               <ListItemIcon>
-                <CallIcon className="text-sky-700" />
+                <CallIcon className="text-yellow-400" />
               </ListItemIcon>
-              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-sky-700 ">
+              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-yellow-400 ">
                 Kontaktiere uns
               </p>
             </ListItemButton>
@@ -130,11 +130,11 @@ export default function SwipeableTemporaryDrawer() {
               <div className="flex justify-center items-center">
                 <img
                   src={Logo}
-                  className="w-20 mx-5 border-4 border-sky-700 rounded-full m-5"
+                  className="w-20 mx-5 border-4 border-black rounded-full m-5"
                 />
               </div>
               <Button onClick={toggleDrawer(anchor, true)} className="">
-                <MenuIcon fontSize="large" className="text-sky-700" />
+                <MenuIcon fontSize="large" className="text-yellow-400" />
               </Button>
             </div>
             <SwipeableDrawer

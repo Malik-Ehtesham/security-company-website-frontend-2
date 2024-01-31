@@ -7,19 +7,19 @@ const QuestionSection = () => {
       <div className="sm:w-5/6">
         <div className="flex flex-col justify-between items-center lg:flex-row pb-5 lg:pb-10 lg:pt-10">
           <div className="p-4 flex justify-center flex-col items-center lg:items-start">
-            <p className="text-center lg:text-start text-4xl md:text-5xl font-black">
-              Haben Sie <span className="text-sky-700">Fragen?</span>
+            <p className="text-center lg:text-start text-4xl md:text-5xl font-black text-white">
+              Haben Sie <span className="text-yellow-400">Fragen?</span>
             </p>
-            <p className="text-center lg:text-start text-4xl md:text-5xl font-black">
+            <p className="text-center lg:text-start text-4xl md:text-5xl font-black text-white">
               Wir haben Antworten!
             </p>
-            <p className="text-gray-900 text-center lg:text-start text-lg sm:text-xl mt-5">
+            <p className="text-white text-center lg:text-start text-lg sm:text-xl mt-5">
               Finden Sie hier keine Antwort? Senden Sie uns einfach eine
               Nachricht für jede Anfrage.
             </p>
             <Link
               to="/contactus"
-              className="btn btn-info text-white px-8 p-4 mt-8 text-lg"
+              className="btn btn-warning  text-black rounded-lg  px-8 p-4 mt-8 text-lg"
             >
               Kontaktiere uns
             </Link>

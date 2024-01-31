@@ -26,20 +26,12 @@ const Home = () => {
         title={"Wer sind wir?"}
         image={About1}
         description={
-          "Bei BKF sind wir mehr als nur ein Sicherheitsdienst – wir sind Ihre engagierten Partner im Schutz. Mit einem Bekenntnis zur Exzellenz liefern unsere erfahrenen Fachleute innovative Sicherheitslösungen, die auf Ihre einzigartigen Bedürfnisse zugeschnitten sind. Vertrauen Sie darauf, dass wir Standards neu definieren und umfassende Sicherheit in Wohn-, Unternehmens- und Veranstaltungsumgebungen bieten. Bei BKF steht Ihre Sicherheit an erster Stelle."
+          "Bei All-In-1 sind wir mehr als nur ein Sicherheitsdienst – wir sind Ihre engagierten Partner im Schutz. Mit einem Bekenntnis zur Exzellenz liefern unsere erfahrenen Fachleute innovative Sicherheitslösungen, die auf Ihre einzigartigen Bedürfnisse zugeschnitten sind. Vertrauen Sie darauf, dass wir Standards neu definieren und umfassende Sicherheit in Wohn-, Unternehmens- und Veranstaltungsumgebungen bieten. Bei All-In-1 steht Ihre Sicherheit an erster Stelle."
         }
       />
       <UniqueSection />
       <ServicesSection />
       <QuestionSection />
-      <AboutCardRight
-        title={"Einzugsgebiet"}
-        image={MapImage}
-        description={
-          "In unserem Abschnitt Einzugsgebiet präsentieren wir stolz die umfangreichen Regionen, die von unseren Sicherheitsdienstleistungen abgedeckt werden. Unser Engagement für den Schutz erstreckt sich über das Rhein-Main-Gebiet und gewährleistet, dass Einzelpersonen, Wohnsitze und Unternehmen innerhalb dieses Gebiets von unseren umfassenden Sicherheitslösungen profitieren. Durch die strategische Definition unseres Einzugsgebiets streben wir danach, ein starkes und reaktionsschnelles Sicherheitsnetzwerk aufzubauen, das eine schnelle und effiziente Sicherung für unsere geschätzten Kunden ermöglicht. Erkunden Sie die Karte, um zu sehen, wie BKF als wachsamer Beschützer innerhalb dieser festgelegten Grenzen steht und Sicherheit bietet, wo es am wichtigsten ist."
-        }
-      />
-
       <CtaSection />
       <Footer />
     </div>
