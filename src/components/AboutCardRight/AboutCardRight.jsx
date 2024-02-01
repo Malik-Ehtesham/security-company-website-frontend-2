@@ -13,7 +13,7 @@ const AboutCardRight = (props) => {
             <p className="text-3xl text-white md:text-5xl font-black my-6">
               {props.title}
             </p>
-            <p className="text-lg">{props.description}</p>
+            <p className="text-lg text-gray-200">{props.description}</p>
             <div>
               <Link to="/contactus" className="  ">
                 <button className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 bg-gray-400 py-3 my-8 hover:bg-gray-500 px-8 font-semibold  text-black rounded-lg  text-lg">
@@ -47,7 +47,7 @@ const AboutCardRight = (props) => {
             <p className="text-3xl md:text-5xl text-white  font-black my-6">
               {props.title}
             </p>
-            <p className=" text-lg">{props.description}</p>
+            <p className=" text-lg text-gray-200">{props.description}</p>
             <div>
               <Link to="/contactus" className="  ">
                 <button className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 bg-gray-400 py-3 my-8 hover:bg-gray-500 px-8 font-semibold  text-black rounded-lg  text-lg">

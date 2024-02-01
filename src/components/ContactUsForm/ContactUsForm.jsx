@@ -3,6 +3,10 @@ import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 
+import FormGroup from "@mui/material/FormGroup";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Checkbox from "@mui/material/Checkbox";
+
 const ContactUsForm = () => {
   const {
     register,
@@ -93,6 +97,28 @@ const ContactUsForm = () => {
               Nachricht ist erforderlich
             </p>
           )}
+        </div>
+        <div>
+          <FormGroup>
+            <div className="flex ">
+              <FormControlLabel
+                {...register("checkbox", { required: true })}
+                control={<Checkbox defaultChecked />}
+                className="m-0 p-0"
+              />
+              <p className="text-black mt-2 tracking-tight leading-5 text-sm md:text-base">
+                Ich habe die Datenschutzerklärung zur Kenntnis genommen und
+                akzeptiert. Ich stimme zu, dass meine Formularangaben zur
+                Kontaktaufnahme bzw. zur Bearbeitung meines Anliegens
+                gespeichert werden.
+              </p>
+            </div>
+            {errors.checkbox && (
+              <p className="font-bold text-center text-red-500 bg-white px-2 rounded-lg  mt-2">
+                Nachricht ist erforderlich
+              </p>
+            )}
+          </FormGroup>
         </div>
         <div className="mt-5 ">
           <button className="py-3  bg-black  text-white hover:bg-gray-800 rounded-lg  w-full font-semibold">
