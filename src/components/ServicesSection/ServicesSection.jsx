@@ -13,7 +13,7 @@ const ServicesSection = () => {
             <span className="text-gray-500">Sicherheits</span>
             -Dienstleistungen
           </p>
-          <p className="text-center text-lg sm:text-xl font-medium tracking-wide mb-10 p-8 sm:p-0">
+          <p className="text-center text-lg sm:text-xl font-medium tracking-wide mb-10 p-8 sm:p-0 text-gray-200">
             Herzlich willkommen bei All-In-1, wo Sicherheit auf Einfachheit
             trifft. Unser Engagement ist klar: Ihre Sicherheit. Unsere
             maßgeschneiderten Lösungen, unterstützt von einem engagierten Team,
