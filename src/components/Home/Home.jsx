@@ -4,7 +4,7 @@ import Header from "../Header/Header";
 import HomeSection from "../HomeSection/HomeSection";
 import ServicesSection from "../ServicesSection/ServicesSection";
 
-import About1 from "../../utils/images/aboutcards/about-2.jpg";
+import About1 from "../../utils/images/aboutcards/about-5.jpg";
 import MapImage from "../../utils/images/map/map.jpg";
 import UniqueSection from "../UniqueSection/UniqueSection";
 import QuestionSection from "../QuestionSection/QuestionSection";

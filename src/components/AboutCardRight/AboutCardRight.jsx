@@ -15,11 +15,10 @@ const AboutCardRight = (props) => {
             </p>
             <p className="text-lg">{props.description}</p>
             <div>
-              <Link
-                to="/contactus"
-                className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 bg-gray-400 py-3 my-8 hover:bg-gray-500 px-8 font-semibold  text-black rounded-lg  text-lg"
-              >
-                Loslegen
+              <Link to="/contactus" className="  ">
+                <button className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 bg-gray-400 py-3 my-8 hover:bg-gray-500 px-8 font-semibold  text-black rounded-lg  text-lg">
+                  Loslegen
+                </button>
               </Link>
             </div>
           </div>
@@ -50,11 +49,10 @@ const AboutCardRight = (props) => {
             </p>
             <p className=" text-lg">{props.description}</p>
             <div>
-              <Link
-                to="/contactus"
-                className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 bg-gray-400 py-3 my-8 hover:bg-gray-500 px-8 font-semibold  text-black rounded-lg  text-lg"
-              >
-                Loslegen
+              <Link to="/contactus" className="  ">
+                <button className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 bg-gray-400 py-3 my-8 hover:bg-gray-500 px-8 font-semibold  text-black rounded-lg  text-lg">
+                  Loslegen
+                </button>
               </Link>
             </div>
           </div>
