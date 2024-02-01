@@ -26,16 +26,16 @@ const QuestionSection = () => {
           </div>
           <div className="lg:w-5/6 flex flex-col items-center">
             <QuestionAccordion
-              question="Welche Sicherheitsdienstleistungen bieten Sie an?"
+              question="Welche Sicherheitslösungen bieten Sie an?"
               answer="Unsere umfassenden Dienstleistungen umfassen Überwachung, Zugangskontrolle, Alarmanlagen und speziell geschultes Sicherheitspersonal. Ob für private oder geschäftliche Bedürfnisse, wir bieten maßgeschneiderte Lösungen für einen robusten Schutz."
             />
             <QuestionAccordion
-              question="Bieten Sie 24/7 Überwachungsdienste an?"
-              answer="Ja, unser Engagement für Ihre Sicherheit erstreckt sich rund um die Uhr. Unsere 24/7 Überwachungsdienste garantieren kontinuierlichen Schutz mit schnellen Reaktionen auf mögliche Sicherheitsvorfälle."
+              question="Bieten Sie Rund-um-die-Uhr Überwachungsdienste an?"
+              answer="Ja, unser Engagement für Ihre Sicherheit gilt rund um die Uhr. Unsere 24/7 Überwachungsdienste garantieren kontinuierlichen Schutz mit schnellen Reaktionen auf mögliche Sicherheitsvorfälle."
             />
             <QuestionAccordion
               question="Was macht Ihr Sicherheitspersonal besonders?"
-              answer="Unser Sicherheitspersonal zeichnet sich durch rigoroses Training, Auswahl aufgrund von Fachkenntnissen, Professionalität und einem festen Engagement für die Sicherheit unserer Kunden aus. Sie sind ein integraler Bestandteil unserer umfassenden Sicherheitsstrategie."
+              answer="Unser Sicherheitspersonal zeichnet sich durch rigoroses Training, Auswahl nach Fachkenntnissen, Professionalität und ein festes Engagement für die Sicherheit unserer Kunden aus. Sie sind ein integraler Bestandteil unserer umfassenden Sicherheitsstrategie."
             />
             <QuestionAccordion
               question="Wie gehen Sie mit Notfallsituationen um?"
