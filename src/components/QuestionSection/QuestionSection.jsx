@@ -8,7 +8,7 @@ const QuestionSection = () => {
         <div className="flex flex-col justify-between items-center lg:flex-row pb-5 lg:pb-10 lg:pt-10">
           <div className="p-4 flex justify-center flex-col items-center lg:items-start">
             <p className="text-center lg:text-start text-4xl md:text-5xl font-black text-white">
-              Haben Sie <span className="text-yellow-400">Fragen?</span>
+              Haben Sie <span className="text-gray-500">Fragen?</span>
             </p>
             <p className="text-center lg:text-start text-4xl md:text-5xl font-black text-white">
               Wir haben Antworten!
@@ -19,7 +19,7 @@ const QuestionSection = () => {
             </p>
             <Link
               to="/contactus"
-              className="btn btn-warning  text-black rounded-lg  px-8 p-4 mt-8 text-lg"
+              className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 bg-gray-400 py-3 my-8 hover:bg-gray-500 px-8 font-semibold  text-black rounded-lg  text-lg"
             >
               Kontaktiere uns
             </Link>

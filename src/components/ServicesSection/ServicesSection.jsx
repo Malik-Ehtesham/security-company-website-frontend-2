@@ -10,7 +10,7 @@ const ServicesSection = () => {
       <div className="sm:w-5/6">
         <div>
           <p className="text-center text-3xl sm:text-5xl font-bold text-white my-2">
-            <span className="text-yellow-400">Sicherheits</span>
+            <span className="text-gray-500">Sicherheits</span>
             -Dienstleistungen
           </p>
           <p className="text-center text-lg sm:text-xl font-medium tracking-wide mb-10 p-8 sm:p-0">
@@ -31,7 +31,7 @@ const ServicesSection = () => {
         <div className="flex justify-center my-5">
           <Link
             to="/services"
-            className="btn   btn-lg btn-warning  text-black rounded-full  "
+            className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300  bg-gray-400 py-5 my-8 hover:bg-gray-500 px-8 font-semibold  text-black   text-lg rounded-full  "
           >
             Mehr sehen
           </Link>

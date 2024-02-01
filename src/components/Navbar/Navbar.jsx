@@ -42,7 +42,7 @@ const Navbar = (props) => {
             <li className=" transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300  flex  items-center mx-1 ">
               <Link
                 to="/"
-                className={`text-sm xl:text-lg hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full text-white  `}
+                className={`text-sm xl:text-lg hover:text-gray-500 font-semibold  p-1.5 xl:p-2 rounded-full text-white  `}
               >
                 Startseite
               </Link>
@@ -54,7 +54,7 @@ const Navbar = (props) => {
             >
               <Link
                 to="/aboutus"
-                className={`text-sm xl:text-lg hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full  text-white `}
+                className={`text-sm xl:text-lg hover:text-gray-500 font-semibold  p-1.5 xl:p-2 rounded-full  text-white `}
               >
                 Über uns
               </Link>
@@ -65,7 +65,7 @@ const Navbar = (props) => {
             >
               <Link
                 to="/services"
-                className={`text-sm xl:text-lg hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full   text-white `}
+                className={`text-sm xl:text-lg hover:text-gray-500 font-semibold  p-1.5 xl:p-2 rounded-full   text-white `}
               >
                 Sicherheitsdienste
               </Link>
@@ -76,7 +76,7 @@ const Navbar = (props) => {
             >
               <Link
                 to="/career"
-                className={`text-sm xl:text-lg hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full   text-white `}
+                className={`text-sm xl:text-lg hover:text-gray-500 font-semibold  p-1.5 xl:p-2 rounded-full   text-white `}
               >
                 Karriere
               </Link>
@@ -87,7 +87,7 @@ const Navbar = (props) => {
             >
               <Link
                 to="/contactus"
-                className={`text-sm xl:text-lg hover:text-yellow-400 font-semibold  p-1.5 xl:p-2 rounded-full   text-white `}
+                className={`text-sm xl:text-lg hover:text-gray-500 font-semibold  p-1.5 xl:p-2 rounded-full   text-white `}
               >
                 Kontaktiere uns
               </Link>

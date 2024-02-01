@@ -14,7 +14,7 @@ const CtaSection = () => {
           <div className="flex flex-col  items-center lg:items-start justify-center px-4 lg:col-span-7">
             <p className=" text-center text-white lg:text-start  text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-black leading-tight">
               Bereit zu
-              <span className="text-yellow-400 block">
+              <span className="text-gray-500 block">
                 Sichern Sie Ihre Welt?
               </span>
             </p>
@@ -29,13 +29,13 @@ const CtaSection = () => {
             <div className="flex flex-col sm:flex-row items-center">
               <Link
                 to="/contactus"
-                className="btn btn-warning  text-black rounded-lg  p-4 px-8 my-2 text-lg sm:me-4"
+                className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 bg-gray-400 py-3 my-8 hover:bg-gray-500 px-8 font-semibold  text-black rounded-lg  text-lg"
               >
                 Loslegen
               </Link>
               <Link
                 to="/aboutus"
-                className="btn btn-warning  text-black rounded-lg  btn-outline p-4 px-8  my-2 text-lg sm:mx-4"
+                className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 border-2 border-gray-400 bg-black py-3 my-8 hover:border-gray-500 hover:bg-gray-500 px-8 font-semibold  text-white hover:text-black rounded-lg  mx-4 text-lg"
               >
                 Erfahren Sie mehr
               </Link>

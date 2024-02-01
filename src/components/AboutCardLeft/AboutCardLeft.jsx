@@ -13,11 +13,10 @@ const AboutCardLeft = (props) => {
             </p>
             <p className=" text-lg">{props.description}</p>
             <div>
-              <Link
-                to="/pricing"
-                className="btn  btn-warning text-black rounded-lg  text-lg py-4 px-8 my-8"
-              >
-                Loslegen
+              <Link to="/pricing" className="  ">
+                <button className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 bg-gray-400 py-3 my-8 hover:bg-gray-500 px-8 font-semibold  text-black rounded-lg  text-lg">
+                  Loslegen
+                </button>
               </Link>
             </div>
           </div>

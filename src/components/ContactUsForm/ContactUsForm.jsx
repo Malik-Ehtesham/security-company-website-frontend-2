@@ -95,7 +95,7 @@ const ContactUsForm = () => {
           )}
         </div>
         <div className="mt-5 ">
-          <button className="btn btn-warning  text-black rounded-lg  w-full">
+          <button className="py-3  bg-black  text-white hover:bg-gray-800 rounded-lg  w-full font-semibold">
             Nachricht senden
           </button>
         </div>

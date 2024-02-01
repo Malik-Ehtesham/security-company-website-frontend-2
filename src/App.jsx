@@ -10,7 +10,10 @@ import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
-    <div className=" min-h-screen" style={{ fontFamily: " sans-serif" }}>
+    <div
+      className=" min-h-screen bg-black"
+      style={{ fontFamily: " sans-serif" }}
+    >
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/aboutus" element={<AboutUsPage />} />{" "}

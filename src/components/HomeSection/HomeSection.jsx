@@ -10,7 +10,7 @@ const HomeSection = () => {
           <p className="text-4xl min-[500px]:text-4xl xl:text-6xl  font-black text-white">
             Ihre Sicherheit, unsere Priorität
           </p>
-          <p className="text-3xl min-[500px]:text-4xl xl:text-6xl  font-bold sm:font-black text-yellow-400">
+          <p className="text-3xl min-[500px]:text-4xl xl:text-6xl  font-bold sm:font-black text-black">
             <TypeAnimation
               preRenderFirstString={true}
               sequence={[
@@ -29,13 +29,13 @@ const HomeSection = () => {
           <div>
             <Link
               to="/contactus"
-              className="btn btn-warning  text-black rounded-lg   md:btn-lg my-6 mx-1"
+              className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 bg-gray-400 py-5 my-8 hover:bg-gray-500 px-8 font-semibold  text-black rounded-lg  text-lg"
             >
               Loslegen
             </Link>
             <Link
               to="/aboutus"
-              className="btn btn-outline btn-warning text-white  rounded-lg  md:btn-lg my-6  mx-4"
+              className="btn btn-outline   text-white  rounded-lg  md:btn-lg my-6  mx-4"
             >
               Erfahren Sie mehr
             </Link>

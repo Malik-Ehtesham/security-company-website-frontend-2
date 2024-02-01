@@ -20,7 +20,7 @@ const ServicesCard = (props) => {
       ) : (
         <Link
           to="/services"
-          className=" btn btn-outline btn-warning   rounded-lg  font-bold py-2 px-6 mx-2 mb-5 text-lg"
+          className=" btn btn-outline     rounded-lg  font-bold py-2 px-6 mx-2 mb-5 text-lg"
         >
           Mehr
         </Link>

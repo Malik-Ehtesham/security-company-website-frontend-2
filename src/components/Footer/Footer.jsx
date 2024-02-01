@@ -26,31 +26,31 @@ const Footer = () => {
                 </header>
                 <Link
                   to="/"
-                  className="link link-hover text-white hover:text-yellow-400 my-2"
+                  className="link link-hover text-white hover:text-gray-500 my-2"
                 >
                   Startseite
                 </Link>
                 <Link
                   to="/aboutus"
-                  className="link link-hover text-white hover:text-yellow-400 my-2"
+                  className="link link-hover text-white hover:text-gray-500 my-2"
                 >
                   Über uns
                 </Link>
                 <Link
                   to="/services"
-                  className="link link-hover text-white hover:text-yellow-400 my-2"
+                  className="link link-hover text-white hover:text-gray-500 my-2"
                 >
                   Sicherheitsdienste
                 </Link>{" "}
                 <Link
                   to="/career"
-                  className="link link-hover text-white hover:text-yellow-400 my-2"
+                  className="link link-hover text-white hover:text-gray-500 my-2"
                 >
                   Karriere
                 </Link>{" "}
                 <Link
                   to="/contactus"
-                  className="link link-hover text-white hover:text-yellow-400 my-2"
+                  className="link link-hover text-white hover:text-gray-500 my-2"
                 >
                   Kontaktiere uns
                 </Link>
@@ -63,19 +63,19 @@ const Footer = () => {
                 </header>
                 <Link
                   to="/"
-                  className="link link-hover text-white hover:text-yellow-400 my-2"
+                  className="link link-hover text-white hover:text-gray-500 my-2"
                 >
                   Geschäftsbedingungen
                 </Link>
                 <Link
                   to="/"
-                  className="link link-hover text-white hover:text-yellow-400 my-2"
+                  className="link link-hover text-white hover:text-gray-500 my-2"
                 >
                   Datenschutzbestimmungen
                 </Link>
                 <Link
                   to="/aboutus"
-                  className="link link-hover text-white hover:text-yellow-400 my-2"
+                  className="link link-hover text-white hover:text-gray-500 my-2"
                 >
                   FAQs
                 </Link>

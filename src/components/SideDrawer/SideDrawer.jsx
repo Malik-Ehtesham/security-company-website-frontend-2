@@ -48,7 +48,7 @@ export default function SwipeableTemporaryDrawer() {
       //   className="bg-sky-200 h-screen"
     >
       <List className="flex flex-col items-center">
-        <ListItem disablePadding className=" border-b-4 border-yellow-400 p-2">
+        <ListItem disablePadding className=" border-b-4 border-gray-500 p-2">
           {/* <p className=" gradient-text text-lg font-bold">Call Up!</p> */}
           <img
             src={Logo}
@@ -59,9 +59,9 @@ export default function SwipeableTemporaryDrawer() {
           <Link to="/">
             <ListItemButton>
               <ListItemIcon>
-                <HomeIcon className="text-yellow-400" />
+                <HomeIcon className="text-gray-500" />
               </ListItemIcon>
-              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-yellow-400 ">
+              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-gray-500 ">
                 Heim
               </p>
               {/* <ListItemText primary="Home" /> */}
@@ -72,9 +72,9 @@ export default function SwipeableTemporaryDrawer() {
           <Link to="/aboutus">
             <ListItemButton>
               <ListItemIcon>
-                <InfoIcon className="text-yellow-400" />
+                <InfoIcon className="text-gray-500" />
               </ListItemIcon>
-              <p className="p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-yellow-400 ">
+              <p className="p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-gray-500 ">
                 Über uns
               </p>
             </ListItemButton>
@@ -85,9 +85,9 @@ export default function SwipeableTemporaryDrawer() {
           <Link to="/services">
             <ListItemButton>
               <ListItemIcon>
-                <SecurityIcon className="text-yellow-400" />
+                <SecurityIcon className="text-gray-500" />
               </ListItemIcon>
-              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-yellow-400 ">
+              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-gray-500 ">
                 Sicherheitsdienste
               </p>
             </ListItemButton>
@@ -97,9 +97,9 @@ export default function SwipeableTemporaryDrawer() {
           <Link to="/career">
             <ListItemButton>
               <ListItemIcon>
-                <WorkIcon className="text-yellow-400" />
+                <WorkIcon className="text-gray-500" />
               </ListItemIcon>
-              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-yellow-400 ">
+              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-gray-500 ">
                 Karriere
               </p>
             </ListItemButton>
@@ -109,9 +109,9 @@ export default function SwipeableTemporaryDrawer() {
           <Link to="/contactus">
             <ListItemButton>
               <ListItemIcon>
-                <CallIcon className="text-yellow-400" />
+                <CallIcon className="text-gray-500" />
               </ListItemIcon>
-              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-yellow-400 ">
+              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-gray-500 ">
                 Kontaktiere uns
               </p>
             </ListItemButton>
@@ -134,7 +134,7 @@ export default function SwipeableTemporaryDrawer() {
                 />
               </div>
               <Button onClick={toggleDrawer(anchor, true)} className="">
-                <MenuIcon fontSize="large" className="text-yellow-400" />
+                <MenuIcon fontSize="large" className="text-gray-500" />
               </Button>
             </div>
             <SwipeableDrawer
