@@ -19,7 +19,7 @@ const ServicesCard = (props) => {
         </p>
       ) : (
         <Link to="/services" className="">
-          <button className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 border-2  border-gray-400 mb-4 bg-black py-3 hover:border-gray-500 hover:bg-gray-500 px-8 font-semibold  text-white hover:text-black rounded-lg  mx-2 text-lg">
+          <button className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 border-2   border-gray-400 mb-4 bg-black py-3 hover:border-gray-500 hover:bg-gray-500 px-8 font-semibold  text-white hover:text-black rounded-lg  mx-2 text-lg">
             Mehr
           </button>
         </Link>
