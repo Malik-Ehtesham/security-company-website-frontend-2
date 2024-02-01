@@ -1,4 +1,4 @@
-import About1 from "../../utils/images/aboutcards/about-5.jpg";
+import About1 from "../../utils/images/aboutcards/about-6.jpg";
 import About2 from "../../utils/images/aboutcards/about-1.jpg";
 
 import AboutCardLeft from "../AboutCardLeft/AboutCardLeft";

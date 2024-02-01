@@ -10,7 +10,7 @@ const HomeSection = () => {
           <p className="text-4xl min-[500px]:text-4xl xl:text-6xl  font-black text-white">
             Ihre Sicherheit, unsere Priorität
           </p>
-          <p className="text-3xl min-[500px]:text-4xl xl:text-6xl  font-bold sm:font-black text-black">
+          <p className="text-3xl min-[500px]:text-4xl xl:text-6xl  font-bold sm:font-black text-gray-400 xl:text-black">
             <TypeAnimation
               preRenderFirstString={true}
               sequence={[

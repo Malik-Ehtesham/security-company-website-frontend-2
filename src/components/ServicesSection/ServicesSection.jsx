@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Service1 from "../../utils/images/servicecards/service-1.jpg";
-import Service2 from "../../utils/images/servicecards/service-2.jpg";
-import Service3 from "../../utils/images/servicecards/service-3.jpg";
+import Service1 from "../../utils/images/servicecards/service-4.jpg";
+import Service2 from "../../utils/images/servicecards/service-11.jpg";
+import Service3 from "../../utils/images/servicecards/service-10.jpg";
 import ServicesCard from "../ServicesCard/ServicesCard";
 
 const ServicesSection = () => {

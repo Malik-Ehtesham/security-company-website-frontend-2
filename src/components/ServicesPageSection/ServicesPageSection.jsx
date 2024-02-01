@@ -1,7 +1,7 @@
 import { Fade } from "react-awesome-reveal";
 import Service1 from "../../utils/images/servicecards/service-1.jpg";
-import Service2 from "../../utils/images/servicecards/service-2.jpg";
-import Service3 from "../../utils/images/servicecards/service-3.jpg";
+import Service2 from "../../utils/images/servicecards/service-11.jpg";
+import Service3 from "../../utils/images/servicecards/service-10.jpg";
 import Service4 from "../../utils/images/servicecards/service-4.jpg";
 import Service5 from "../../utils/images/servicecards/service-5.jpg";
 import Service6 from "../../utils/images/servicecards/service-6.jpg";
