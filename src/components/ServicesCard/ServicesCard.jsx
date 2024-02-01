@@ -12,17 +12,16 @@ const ServicesCard = (props) => {
       }  lg:w-96 shadow-lg mx-1`}
     >
       <img src={props.image} className="rounded-sm h-60 md:h-60 w-full" />
-      <p className="font-bold mx-2 my-5 text-xl">{props.title}</p>
+      <p className="font-bold mx-2 my-5 text-xl text-white">{props.title}</p>
       {props.description ? (
-        <p className=" mx-2 my-5 text-sm leading-5 md:leading-normal md:text-base tracking-normal">
+        <p className=" mx-2 my-5 text-sm leading-5 md:leading-normal md:text-base tracking-normal text-gray-200">
           {props.description}
         </p>
       ) : (
-        <Link
-          to="/services"
-          className=" btn btn-outline     rounded-lg  font-bold py-2 px-6 mx-2 mb-5 text-lg"
-        >
-          Mehr
+        <Link to="/services" className="">
+          <button className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 border-2  border-gray-400 mb-4 bg-black py-3 hover:border-gray-500 hover:bg-gray-500 px-8 font-semibold  text-white hover:text-black rounded-lg  mx-2 text-lg">
+            Mehr
+          </button>
         </Link>
       )}
     </div>
